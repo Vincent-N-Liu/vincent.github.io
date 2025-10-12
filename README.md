@@ -3,7 +3,11 @@ Vincent N Liu 的教學學習網站
 
 https://github.com/Vincent-N-Liu/vincent.github.io
 
+**Academic Backgound**
+
 Prof. Vincent N Liu, PhD (PhD in Politics/PhD in Communication)
+
+**Research Areas**
 
 Political Communication
 
