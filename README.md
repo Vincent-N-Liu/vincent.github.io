@@ -10,3 +10,7 @@ https://github.com/Vincent-N-Liu/vincent.github.io
 [R讲义：数据汇入/变量标签](https://rpubs.com/Vincent_N_Liu/1347928)
 
 [R讲义：数据档个案的编辑管理](https://rpubs.com/Vincent_N_Liu/1353103)
+
+**SPSS讲义**
+
+[SPSS讲义：数据编码簿的建立与基本频数分布](https://rpubs.com/Vincent_N_Liu/1353537)
