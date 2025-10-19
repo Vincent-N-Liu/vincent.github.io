@@ -6,3 +6,4 @@
 
 [SPSS讲义：样本代表性检验与加权](https://rpubs.com/Vincent_N_Liu/1353525)
 
+[SPSS讲义：单变量描述统计](https://rpubs.com/Vincent_N_Liu/1356331)
