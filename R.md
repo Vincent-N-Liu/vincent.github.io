@@ -9,3 +9,5 @@
 [R讲义：数据档个案的编辑管理](https://rpubs.com/Vincent_N_Liu/1353103)
 
 [R讲义：数据档变量的编辑管理](https://rpubs.com/Vincent_N_Liu/1355933)
+
+[R讲义：数据档变量的编辑管理](https://rpubs.com/Vincent_N_Liu/1359073)
