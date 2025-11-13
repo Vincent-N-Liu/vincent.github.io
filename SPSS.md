@@ -4,7 +4,7 @@
 
 [SPSS讲义：重新编码与产生新变量](https://rpubs.com/Vincent_N_Liu/1348560)
 
-[SPSS讲义：样本代表性检验与加权](https://rpubs.com/Vincent_N_Liu/1353525)
+[SPSS讲义：样本代表性检验与加权](https://vincent-liu.quarto.pub/sample-fittest-raking/)
 
 [SPSS讲义：单变量描述统计](https://vincent-liu.quarto.pub/spss-descriptive-statistics/)
 
