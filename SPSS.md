@@ -8,7 +8,7 @@
 
 [SPSS讲义：单变量描述统计](https://vincent-liu.quarto.pub/spss-descriptive-statistics/)
 
-[SPSS讲义：交叉分析与卡方检验](https://rpubs.com/Vincent_N_Liu/1359537)
+[SPSS讲义：交叉分析与卡方检验](https://vincent-liu.quarto.pub/spss-crosstab/）
 
 [SPSS讲义：平均数差异分析](https://vincent-liu.quarto.pub/spss-meandiff/)
 
