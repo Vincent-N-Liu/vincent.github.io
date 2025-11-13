@@ -14,6 +14,6 @@
 
 [R讲义：描述统计](https://vincent-liu.quarto.pub/r-descriptive-statistics/)
 
-[R讲义：百分比交叉分析与卡方检验](https://rpubs.com/Vincent_N_Liu/1364764)
+[R讲义：百分比交叉分析与卡方检验](https://vincent-liu.quarto.pub/r-crosstab/)
 
 
