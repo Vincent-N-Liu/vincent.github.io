@@ -10,7 +10,7 @@
 
 [R讲义：数据档变量的编辑管理](https://vincent-liu.quarto.pub/r-datamanipulaiton-variables/)
 
-[R讲义：样本代表性检验与加权](https://rpubs.com/Vincent_N_Liu/1359073)
+[R讲义：样本代表性检验与加权](https://vincent-liu.quarto.pub/r-samplesfit-raking/)
 
 [R讲义：描述统计](https://rpubs.com/Vincent_N_Liu/1361984)
 
