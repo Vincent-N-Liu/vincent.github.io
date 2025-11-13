@@ -10,5 +10,5 @@
 
 [SPSS讲义：交叉分析与卡方检验](https://rpubs.com/Vincent_N_Liu/1359537)
 
-[SPSS讲义：平均数差异分析](https://rpubs.com/Vincent_N_Liu/1362426)
+[SPSS讲义：平均数差异分析] (https://vincent-liu.quarto.pub/spss-meandiff/)
 
