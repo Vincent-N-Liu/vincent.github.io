@@ -8,7 +8,7 @@
 
 [R讲义：数据档个案的编辑管理](https://vincent-liu.quarto.pub/r-datamanipulation-cases/)
 
-[R讲义：数据档变量的编辑管理](https://rpubs.com/Vincent_N_Liu/1355933)
+[R讲义：数据档变量的编辑管理](https://vincent-liu.quarto.pub/r-datamanipulaiton-variables/)
 
 [R讲义：样本代表性检验与加权](https://rpubs.com/Vincent_N_Liu/1359073)
 
