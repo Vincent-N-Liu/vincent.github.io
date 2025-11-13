@@ -12,7 +12,7 @@
 
 [R讲义：样本代表性检验与加权](https://vincent-liu.quarto.pub/r-samplesfit-raking/)
 
-[R讲义：描述统计](https://rpubs.com/Vincent_N_Liu/1361984)
+[R讲义：描述统计](https://vincent-liu.quarto.pub/r-descriptive-statistics/)
 
 [R讲义：百分比交叉分析与卡方检验](https://rpubs.com/Vincent_N_Liu/1364764)
 
