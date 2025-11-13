@@ -1,6 +1,6 @@
 **SPSS讲义**
 
-[SPSS讲义：数据编码簿的建立与基本频数分布](https://rpubs.com/Vincent_N_Liu/1353537)
+[SPSS讲义：数据编码簿的建立与基本频数分布](https://https://vincent-liu.quarto.pub/spss-codingbook-freq/)
 
 [SPSS讲义：重新编码与产生新变量](https://vincent-liu.quarto.pub/spss-recode-compute/)
 
