@@ -16,4 +16,5 @@
 
 [R讲义：百分比交叉分析与卡方检验](https://vincent-liu.quarto.pub/r-crosstab/)
 
+[R讲义：平均数差异分析与t/F检验](https://vincent-liu.quarto.pub/r-meancomparison-test/)
 
