@@ -12,3 +12,6 @@
 
 [SPSS讲义：平均数差异分析](https://vincent-liu.quarto.pub/spss-meandiff/)
 
+[SPSS讲义：双因子方差分析](https://vincent-liu.quarto.pub/spss-twowayanova/)
+
+
