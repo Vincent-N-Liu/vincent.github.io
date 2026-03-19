@@ -1,0 +1,926 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.9.31">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="dcterms.date" content="2026-03-19">
+
+<title>新媒体数据分析指标-补充 – 新媒体数据分析与应用2</title>
+<style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<script src="site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-7c69b197886ae2a34062761d21e44731.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap-158031087360bce0ff56dc785ce39e06.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
+
+<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body class="floating nav-fixed quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="./index.html">
+    <span class="navbar-title">新媒体数据分析与应用2</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="./index.html"> 
+<span class="menu-text">课程介绍</span></a>
+  </li>  
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">软件下载</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-">    
+        <li>
+    <a class="dropdown-item" href="https://mirrors.tuna.tsinghua.edu.cn/CRAN/">
+ <span class="dropdown-text">Download R(CRAN)</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="https://posit.co/downloads/">
+ <span class="dropdown-text">Download RStudio Desktop(posit)</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="https://quarto.org/docs/get-started/">
+ <span class="dropdown-text">Download Quarto</span></a>
+  </li>  
+    </ul>
+  </li>
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu--1" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">资源下载</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu--1">    
+        <li>
+    <a class="dropdown-item" href="./resources/textbook.pdf">
+ <span class="dropdown-text">课本(PDF)</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./resources/Ch1.pptx">
+ <span class="dropdown-text">Ch1.pptx</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./resources/Ch2.pptx">
+ <span class="dropdown-text">Ch2.pptx</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./resources/Ch3.pptx">
+ <span class="dropdown-text">Ch3.pptx</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./resources/Ch4.pptx">
+ <span class="dropdown-text">Ch4.pptx</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./resources/Ch5.pptx">
+ <span class="dropdown-text">Ch5.pptx</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./resources/Ch6.pptx">
+ <span class="dropdown-text">Ch6.pptx</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./resources/Ch7.pptx">
+ <span class="dropdown-text">Ch7.pptx</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./resources/Ch8.pptx">
+ <span class="dropdown-text">Ch8.pptx</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./resources/Ch9.pptx">
+ <span class="dropdown-text">Ch9.pptx</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./resources/Ch10.pptx">
+ <span class="dropdown-text">Ch10.pptx</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./resources/Data-Ch4.xlsx">
+ <span class="dropdown-text">课本Ch4数据</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./resources/Data-Ch5.xlsx">
+ <span class="dropdown-text">课本Ch5数据</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./resources/Data-Ch6-1.xlsx">
+ <span class="dropdown-text">课本Ch6-1数据</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./resources/Data-Ch6-2.xlsx">
+ <span class="dropdown-text">课本Ch6-2数据</span></a>
+  </li>  
+    </ul>
+  </li>
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu--2" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">老师补充讲义</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu--2">    
+        <li>
+    <a class="dropdown-item" href="./Liu-补充讲义1-新媒体数据分析指标.html">
+ <span class="dropdown-text">Liu-补充讲义1-新媒体数据分析指标</span></a>
+  </li>  
+    </ul>
+  </li>
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
+    <nav id="TOC" role="doc-toc" class="toc-active" data-toc-expanded="3">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#aarrr分析模型" id="toc-aarrr分析模型" class="nav-link active" data-scroll-target="#aarrr分析模型"><span class="header-section-number">1</span> AARRR分析模型</a></li>
+  <li><a href="#拉新指标" id="toc-拉新指标" class="nav-link" data-scroll-target="#拉新指标"><span class="header-section-number">2</span> 拉新指标</a>
+  <ul class="collapse">
+  <li><a href="#cpmcost-per-mill" id="toc-cpmcost-per-mill" class="nav-link" data-scroll-target="#cpmcost-per-mill"><span class="header-section-number">2.1</span> CPM（Cost Per Mill）</a>
+  <ul class="collapse">
+  <li><a href="#计算公式" id="toc-计算公式" class="nav-link" data-scroll-target="#计算公式"><span class="header-section-number">2.1.1</span> 计算公式：</a></li>
+  <li><a href="#计算示例" id="toc-计算示例" class="nav-link" data-scroll-target="#计算示例"><span class="header-section-number">2.1.2</span> 计算示例：</a></li>
+  </ul></li>
+  <li><a href="#cpccost-per-click" id="toc-cpccost-per-click" class="nav-link" data-scroll-target="#cpccost-per-click"><span class="header-section-number">2.2</span> CPC（Cost Per Click）</a>
+  <ul class="collapse">
+  <li><a href="#计算公式-1" id="toc-计算公式-1" class="nav-link" data-scroll-target="#计算公式-1"><span class="header-section-number">2.2.1</span> 计算公式：</a></li>
+  <li><a href="#计算示例-1" id="toc-计算示例-1" class="nav-link" data-scroll-target="#计算示例-1"><span class="header-section-number">2.2.2</span> 计算示例：</a></li>
+  </ul></li>
+  <li><a href="#cpacost-per-action" id="toc-cpacost-per-action" class="nav-link" data-scroll-target="#cpacost-per-action"><span class="header-section-number">2.3</span> CPA（Cost Per Action）</a>
+  <ul class="collapse">
+  <li><a href="#计算公式-2" id="toc-计算公式-2" class="nav-link" data-scroll-target="#计算公式-2"><span class="header-section-number">2.3.1</span> 计算公式：</a></li>
+  <li><a href="#计算示例-2" id="toc-计算示例-2" class="nav-link" data-scroll-target="#计算示例-2"><span class="header-section-number">2.3.2</span> 计算示例：</a></li>
+  </ul></li>
+  <li><a href="#三大指標比較表-cpm-cpc-cpa" id="toc-三大指標比較表-cpm-cpc-cpa" class="nav-link" data-scroll-target="#三大指標比較表-cpm-cpc-cpa"><span class="header-section-number">2.4</span> 三大指標比較表 (CPM / CPC / CPA)</a></li>
+  </ul></li>
+  <li><a href="#活跃指标" id="toc-活跃指标" class="nav-link" data-scroll-target="#活跃指标"><span class="header-section-number">3</span> 活跃指标</a>
+  <ul class="collapse">
+  <li><a href="#日活跃用户数dau-daily-active-user" id="toc-日活跃用户数dau-daily-active-user" class="nav-link" data-scroll-target="#日活跃用户数dau-daily-active-user"><span class="header-section-number">3.1</span> 日活跃用户数（DAU, Daily Active User)</a></li>
+  <li><a href="#用户黏着度stick-rate" id="toc-用户黏着度stick-rate" class="nav-link" data-scroll-target="#用户黏着度stick-rate"><span class="header-section-number">3.2</span> 用户黏着度（Stick Rate）</a>
+  <ul class="collapse">
+  <li><a href="#舉例" id="toc-舉例" class="nav-link" data-scroll-target="#舉例"><span class="header-section-number">3.2.1</span> 舉例：</a></li>
+  </ul></li>
+  <li><a href="#pvpage-view" id="toc-pvpage-view" class="nav-link" data-scroll-target="#pvpage-view"><span class="header-section-number">3.3</span> PV(Page View)</a></li>
+  <li><a href="#uvunique-visitor" id="toc-uvunique-visitor" class="nav-link" data-scroll-target="#uvunique-visitor"><span class="header-section-number">3.4</span> UV(Unique Visitor)</a></li>
+  <li><a href="#比较pvuv" id="toc-比较pvuv" class="nav-link" data-scroll-target="#比较pvuv"><span class="header-section-number">3.5</span> 比较(PV;UV)</a></li>
+  </ul></li>
+  </ul>
+</nav>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">新媒体数据分析指标-补充</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">19 March 2026</p>
+    </div>
+  </div>
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<section id="aarrr分析模型" class="level1" data-number="1">
+<h1 data-number="1"><span class="header-section-number">1</span> AARRR分析模型</h1>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="AARRR模型.png" class="img-fluid figure-img"></p>
+<figcaption>AARRR MODEL</figcaption>
+</figure>
+</div>
+</section>
+<section id="拉新指标" class="level1" data-number="2">
+<h1 data-number="2"><span class="header-section-number">2</span> 拉新指标</h1>
+<p>是衡量新媒体广告投放效果的重要指标，主要包括CPM（Cost Per Mill）、CPC（Cost Per Click）和CPA（Cost Per Action）。这些指标帮助广告主评估广告投放的效率和效果，从而优化广告策略，提高投资回报率。</p>
+<section id="cpmcost-per-mill" class="level2" data-number="2.1">
+<h2 data-number="2.1" class="anchored" data-anchor-id="cpmcost-per-mill"><span class="header-section-number">2.1</span> CPM（Cost Per Mill）</h2>
+<p>指每千次曝光的成本，它是衡量广告投放效率的重要指标，反映了广告主为每千次广告曝光所支付的费用。CPM越低，表示广告投放效率越高，广告主能够以更低的成本获得更多的曝光机会。</p>
+<section id="计算公式" class="level3" data-number="2.1.1">
+<h3 data-number="2.1.1" class="anchored" data-anchor-id="计算公式"><span class="header-section-number">2.1.1</span> 计算公式：</h3>
+<p><span class="math display">\[
+\text{CPM} = \left( \frac{\text{总花费成本}}{\text{总曝光次数}} \right) \times 1,000
+\]</span></p>
+</section>
+<section id="计算示例" class="level3" data-number="2.1.2">
+<h3 data-number="2.1.2" class="anchored" data-anchor-id="计算示例"><span class="header-section-number">2.1.2</span> 计算示例：</h3>
+<p>假设一个广告活动的总花费成本为5000元，总曝光次数为200000次，那么CPM的计算如下：</p>
+<p><span class="math display">\[
+\begin{aligned}
+\text{CPM} &amp;= \frac{5,000}{200,000} \times 1,000 \\
+           &amp;= 0.025 \times 1,000 \\
+           &amp;= 25
+\end{aligned}
+\]</span></p>
+<p>因此，该广告活动的CPM为25元，意味着广告主每获得1000次曝光需要支付25元的费用。</p>
+</section>
+</section>
+<section id="cpccost-per-click" class="level2" data-number="2.2">
+<h2 data-number="2.2" class="anchored" data-anchor-id="cpccost-per-click"><span class="header-section-number">2.2</span> CPC（Cost Per Click）</h2>
+<p>指每次点击的成本，是衡量广告投放效果的重要指标，反映了广告主为每次用户点击所支付的费用。CPC越低，表示广告投放效率越高，广告主能够以更低的成本吸引更多的用户点击。</p>
+<section id="计算公式-1" class="level3" data-number="2.2.1">
+<h3 data-number="2.2.1" class="anchored" data-anchor-id="计算公式-1"><span class="header-section-number">2.2.1</span> 计算公式：</h3>
+<p><span class="math display">\[
+\text{CPC} = \left( \frac{\text{总花费成本}}{\text{总点击次数}} \right)
+\]</span></p>
+</section>
+<section id="计算示例-1" class="level3" data-number="2.2.2">
+<h3 data-number="2.2.2" class="anchored" data-anchor-id="计算示例-1"><span class="header-section-number">2.2.2</span> 计算示例：</h3>
+<p>假设你投放了一个网页广告，想吸引人进某个网站，总花费 3,000元，该网页广告总点击次数150次。那么CPC的计算如下：</p>
+<p><span class="math display">\[
+\begin{aligned}
+\text{CPC} &amp;= \frac{3,000}{150}  \\
+           &amp;= 20
+\end{aligned}
+\]</span></p>
+<p>每吸引1个潜在用户点进网站，需要支付20元。</p>
+</section>
+</section>
+<section id="cpacost-per-action" class="level2" data-number="2.3">
+<h2 data-number="2.3" class="anchored" data-anchor-id="cpacost-per-action"><span class="header-section-number">2.3</span> CPA（Cost Per Action）</h2>
+<p>指每次行动的成本， 计算逻辑是：总广告花费除以实际达成的行动（转换）次数。是衡量广告投放效果的重要指标，反映了广告主为每次用户完成特定行动所支付的费用。CPA越低，表示广告投放效率越高，广告主能够以更低的成本促使更多的用户完成特定行动。「行动」的定义由你決定，常見的包括：完成報名、购买產品、下载 App、填寫谘询表單等。</p>
+<section id="计算公式-2" class="level3" data-number="2.3.1">
+<h3 data-number="2.3.1" class="anchored" data-anchor-id="计算公式-2"><span class="header-section-number">2.3.1</span> 计算公式：</h3>
+<p><span class="math display">\[
+\text{CPA} = \left( \frac{\text{总花费成本}}{\text{总转化次数}} \right)
+\]</span></p>
+</section>
+<section id="计算示例-2" class="level3" data-number="2.3.2">
+<h3 data-number="2.3.2" class="anchored" data-anchor-id="计算示例-2"><span class="header-section-number">2.3.2</span> 计算示例：</h3>
+<p>假设你举办了一場「线上讲座」，並透过广告导流报名： 总广告花费： 10,000 元，总点击数 (CPC 階段)： 500 次， 最终完成报名人数： 20 。</p>
+<p>那么CPA的计算如下：</p>
+<p><span class="math display">\[
+\begin{aligned}
+\text{CPA} &amp;= \frac{10,000}{20}  \\
+           &amp;= 50
+\end{aligned}
+\]</span></p>
+<p>每促成1个用户完成报名，需要支付50元的费用。这个CPA值可以帮助你评估广告投放的效果，并决定是否需要调整广告策略以降低CPA，提高转化率。</p>
+</section>
+</section>
+<section id="三大指標比較表-cpm-cpc-cpa" class="level2" data-number="2.4">
+<h2 data-number="2.4" class="anchored" data-anchor-id="三大指標比較表-cpm-cpc-cpa"><span class="header-section-number">2.4</span> 三大指標比較表 (CPM / CPC / CPA)</h2>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 7%">
+<col style="width: 21%">
+<col style="width: 33%">
+<col style="width: 37%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>指标</th>
+<th>英文</th>
+<th>核心关注点</th>
+<th>范例</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>CPM</td>
+<td>Cost Per Mille</td>
+<td>品牌曝光 (被看見)</td>
+<td>花 1,000 元让 10,000 人看到</td>
+</tr>
+<tr class="even">
+<td>CPC</td>
+<td>Cost Per Click</td>
+<td>网站流量 (点進來)</td>
+<td>花 1,000 元換 100 个人進站。</td>
+</tr>
+<tr class="odd">
+<td>CPA</td>
+<td>Cost Per Action</td>
+<td>最終转换 (留资料/買東西）</td>
+<td>花 1,000 元換 2 个人下單。</td>
+</tr>
+</tbody>
+</table>
+<div class="callout callout-style-default callout-important callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Important
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>CPA 最重要</p>
+<ul>
+<li><p>衡量真正的投资报酬率 (ROI)： 点击再多，如果没人买单也是徒劳。CPA 直接告诉你获取一个客户的代价。</p></li>
+<li><p>预算控制： 如果你知道一个学员的报名费是 3,000 元，而你的 CPA 是 500 元，那你就能清楚算出利润空间。</p></li>
+<li><p>优化转换率 (CVR)： 如果 CPC 很低（很多人进站）但 CPA 很高（没人买），就代表你的网页内容或产品定价出了问题</p></li>
+</ul>
+</div>
+</div>
+</section>
+</section>
+<section id="活跃指标" class="level1" data-number="3">
+<h1 data-number="3"><span class="header-section-number">3</span> 活跃指标</h1>
+<section id="日活跃用户数dau-daily-active-user" class="level2" data-number="3.1">
+<h2 data-number="3.1" class="anchored" data-anchor-id="日活跃用户数dau-daily-active-user"><span class="header-section-number">3.1</span> 日活跃用户数（DAU, Daily Active User)</h2>
+<p>表示在一天24小时内至少访问过一次网站或应用程序的<strong>不重複用戶（Unique Users）(独立用户)</strong>數量。不管同一個用户在一天內進出網站多少次，DAU 都只會計算為 1。与此对应的，还有<strong>周活跃用户数</strong>(WAU, Weekely Active User)与<strong>月活跃用户数</strong>(MAU, Monthly Active User)。</p>
+</section>
+<section id="用户黏着度stick-rate" class="level2" data-number="3.2">
+<h2 data-number="3.2" class="anchored" data-anchor-id="用户黏着度stick-rate"><span class="header-section-number">3.2</span> 用户黏着度（Stick Rate）</h2>
+<p>指用户在一定时间内的活跃程度，通常通过DAU（每日活跃用户数）与MAU（月活跃用户数）的比率来衡量。这个指标反映了用户对网站或应用程序的忠诚度和使用频率。用户黏着度越高，表示用户更频繁地使用该平台，说明平台具有较强的吸引力和用户粘性。</p>
+<p><span class="math display">\[
+\text{用戶黏著度(Stick Rate)} = \left( \frac{\text{DAU}}{\text{MAU}} \right) \times 100\%
+\]</span></p>
+<section id="舉例" class="level3" data-number="3.2.1">
+<h3 data-number="3.2.1" class="anchored" data-anchor-id="舉例"><span class="header-section-number">3.2.1</span> 舉例：</h3>
+<p>如果某老师开设一门线上课程，有 100 名學生选修 (MAU = 100)。每天固定會上線看進度的學生有 20 名 (DAU = 20)，则黏著度： <span class="math inline">\(20 / 100 = 20\%\)</span>。</p>
+</section>
+</section>
+<section id="pvpage-view" class="level2" data-number="3.3">
+<h2 data-number="3.3" class="anchored" data-anchor-id="pvpage-view"><span class="header-section-number">3.3</span> PV(Page View)</h2>
+<p>指页面浏览量，网页被「加载」或「刷新」的总次数。只要页面被读取一次，PV 就会加 1。衡量网站或应用程序的访问量。<u><strong><em>每当用户访问一个页面时，PV就会增加一次</em></strong></u>。PV是评估网站流量和用户兴趣的重要指标，通常用于分析网站的受欢迎程度和内容的吸引力。</p>
+<p>计算逻辑： 不管是谁看的，只要有开启网页的动作就计算。 同一个使用者反覆刷新页面，PV 会不断累积。</p>
+</section>
+<section id="uvunique-visitor" class="level2" data-number="3.4">
+<h2 data-number="3.4" class="anchored" data-anchor-id="uvunique-visitor"><span class="header-section-number">3.4</span> UV(Unique Visitor)</h2>
+<p>指独立访客数(唯一页面浏览量)，在同一个工作阶段内，特定网页被浏览的「次数」。它排除了重复浏览，以「人（精确来说是浏览器/Cookie）」为单位。衡量在一定时间内访问网站或应用程序的独立用户数量。<u><strong><em>每个独立用户只会被计算一次，无论他们访问了多少次</em></strong></u>。UV是评估网站受众规模和用户覆盖范围的重要指标，通常用于分析网站的用户基础和市场渗透率。</p>
+<p>计算逻辑： 同一个使用者在一次访问中，不管看几次同个页面，只算 1 次。能更准确地反映出「有多少人」看过这个内容。</p>
+</section>
+<section id="比较pvuv" class="level2" data-number="3.5">
+<h2 data-number="3.5" class="anchored" data-anchor-id="比较pvuv"><span class="header-section-number">3.5</span> 比较(PV;UV)</h2>
+<p>假设有一位学生进入某老师的课程网站，发生了以下行为：</p>
+<p>1.进入 <code>首页 (Home)</code></p>
+<p>2.点击进入 <code>课程大纲 (Syllabus)</code></p>
+<p>3.按「重新整理」刷新 <code>课程大纲</code></p>
+<p>4.回到 <code>首页</code></p>
+<p>5.再次点进 <code>课程大纲</code></p>
+<p>統計結果如下：</p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>页面</th>
+<th>PV</th>
+<th>UV</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>首页</td>
+<td>2</td>
+<td>1</td>
+</tr>
+<tr class="even">
+<td>课程大纲</td>
+<td>3</td>
+<td>1</td>
+</tr>
+<tr class="odd">
+<td><strong>总计</strong></td>
+<td><strong>5</strong></td>
+<td><strong>2</strong></td>
+</tr>
+</tbody>
+</table>
+<p>这两个数字的「差距」能告诉你很多关于网页内容的信息：</p>
+<ul>
+<li>PV 远高于 UV：</li>
+</ul>
+<p>—可能是好现象： 代表内容非常吸引人，使用者反覆回来查看（例如：参考资料、工具页面）。</p>
+<p>—也可能是坏现象： 可能代表网页加载有问题、信息太复杂，导致使用者必须不断重新整理或来回跳转才能看清楚。</p>
+<ul>
+<li>PV 与 UV接近：</li>
+</ul>
+<p>—代表使用者通常「看完就走」，没有回头再看的动力。</p>
+
+
+</section>
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp('/' + window.location.host + '/');
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+
+
+
+
+</body></html>

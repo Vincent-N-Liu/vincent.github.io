@@ -1,0 +1,114 @@
+---
+title: "课程介绍"
+author:
+  - name: 刘念夏教授
+    degrees: PhD
+    email: 2312203237@qq.com
+    phone: +86 152-5962-0912
+    affiliation: 
+      - name: School of Journalism and Communication,
+              Minnan Normal University
+        url: https://sjc.mnnu.edu.cn/index.htm
+        
+date: today
+modified: last-modified  # 顯示檔案最後修改時間
+date-format: "DD MMMM YYYY"
+
+toc: true # 呈现目录表(Table of Content)
+toc-depth: 3 # 呈现3层目录
+toc-expand: 3
+toc-location: left # 在HTML左侧呈现超连结卷轴目   
+number-sections: true  #章節加序號
+fig-caption: True # 呈现图表标题
+
+format: 
+  html:
+    theme: cosmo
+  docx: default
+  typst: 
+    papersize: a4
+    mainfont: "PingFang TC"
+    #mainfort: "Songti" 
+    #mainfort: "Kaiu" 
+    #mainfort: "Microsoft JhengHei"
+    #mainfort: "Noto Serif CJK TC"
+    fontsize: 11pt
+    section-numbering: "1.1.1"
+---
+
+```{r}
+#| echo: false
+setwd("/Users/simonfair/Desktop/Quarto/new-media-da")
+
+```
+
+学期：2025-2026-2
+
+|          |                       |            |            |
+|----------|-----------------------|------------|------------|
+| 课程名称 | 新媒体数据分析与应用2 | 课程类别   | 专业必修课 |
+| 考核方式 | 考试                  | 主讲教师   | 刘念夏     |
+| 学生专业 | 网络与新媒体          | 年级/班级  | 23媒体1, 2 |
+| 学分数   | 2                     | 计划学时数 | 32         |
+
+
+## 教师：刘念夏 教授 博士 {.unnumbered}
+
+### 现职 {.unnumbered}
+
+-   闽南师范大学新闻传播学院教授
+
+### 学历 {.unnumbered}
+
+-   英国牛津大学(Oxford)进修研究
+-   英国艾塞克斯大学(Essex)政府系政治学博士
+-   台湾世新大学(SHU)传播学博士
+-   美国南加利福尼亚大学(USC)公共政策与管理硕士
+-   台湾政治大学(NCCU)政治学硕士
+
+Wechat：simomfair
+
+## 课程目标
+
+完成课程后，学生能够：
+
+-   认识新媒体的数据类型
+-   理解新媒体的数据方法论
+-   进行新媒体平台的数据分析
+
+## 上课教材
+
+1.  朱小栋. 新媒体数据分析与应用. 电子工业出版社, 2022.
+2.  教师补充讲义
+
+
+## 考核方式
+
+| 项目                   | 占比 |
+|------------------------|------|
+| 平时出勤               | 30%  |
+| 期中作业/考试          | 30％ |
+| 期末考试(学校集体安排) | 40%  |
+
+## 教学进度(可依实际授课状况调整)
+
+| 周次                | 内容                      |
+|---------------------|---------------------------|
+| 第1周 3/12          | 课程介绍+绪论             |
+| 第2周 3/19          | 新媒体数据分析指标(1)     |
+| 第3周 3/26          | 新媒体数据分析指标(2)     |
+| 第4周 4/2           | 新媒体数据的准备          |
+| 第5周 4/9           | 新媒体数据的处理          |
+| 第6周 4/16          | 新媒体数据的分析视角      |
+| 第7周 4/23          | 新媒体数据分析的可视化(1) |
+| 第8周 4/30          | 新媒体数据分析的可视化(2) |
+| `第9周 5/7`         | `第一次作业/考试评测`     |
+| 第10周 5/14         | 微信数据分析(1)           |
+| 第11周 5/21         | 微信数据分析(2)           |
+| 第12周 5/28         | 微博数据分析(1)           |
+| 第13周 6/4          | 微博数据分析(2)           |
+| 第14周 6/11         | 抖音数据分析(1)           |
+| 第15周 6/18         | 抖音数据分析(2)           |
+| `第16周 6/25`       | `第二次作业评测`          |
+| 第17-18周 6/29-7/10 | 期末考试(学校组织考试)    |
+
