@@ -1,0 +1,63 @@
+project:
+  type: website
+  output-dir: docs
+  
+website:
+  title: "新媒体数据分析与应用"
+  navbar:
+    search: true #enable-search-bar #全站搜寻
+    left:
+      - href: index.qmd
+        text: 课程介绍
+      - text: 软件下载 
+        menu:
+          - href: https://mirrors.tuna.tsinghua.edu.cn/CRAN/
+            text: Download R(CRAN)
+          - href: https://posit.co/downloads/
+            text: Download RStudio Desktop(posit)
+          - href: https://quarto.org/docs/get-started/
+            text: Download Quarto
+      - text: 资源下载  
+        menu:
+          - href: resources/textbook.pdf
+            text: 课本(PDF)
+          - href: resources/Ch1.pptx
+            text: Ch1.pptx
+          - href: resources/Ch2.pptx
+            text: Ch2.pptx
+          - href: resources/Ch3.pptx
+            text: Ch3.pptx
+          - href: resources/Ch4.pptx
+            text: Ch4.pptx
+          - href: resources/Ch5.pptx
+            text: Ch5.pptx
+          - href: resources/Ch6.pptx
+            text: Ch6.pptx
+          - href: resources/Ch7.pptx
+            text: Ch7.pptx
+          - href: resources/Ch8.pptx
+            text: Ch8.pptx
+          - href: resources/Ch9.pptx
+            text: Ch9.pptx
+          - href: resources/Ch10.pptx
+            text: Ch10.pptx  
+          - href: resources/Data-Ch4.xlsx
+            text: 课本Ch4数据
+          - href: resources/Data-Ch5.xlsx
+            text: 课本Ch5数据
+          - href: resources/Data-Ch6-1.xlsx
+            text: 课本Ch6-1数据 
+          - href: resources/Data-Ch6-2.xlsx
+            text: 课本Ch6-2数据 
+      - text: 补充讲义 
+        menu:
+          - href: Liu-补充讲义1-新媒体数据分析指标.qmd
+            text: Liu-补充讲义1-新媒体数据分析指标   
+            
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
+    toc-location: left
+
