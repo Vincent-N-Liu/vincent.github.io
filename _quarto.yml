@@ -1,6 +1,6 @@
 project:
   type: website
-  output-dir: docs
+  output-dir: docs #指定输出目录为docs #for github pages
   
 website:
   title: "新媒体数据分析与应用2"
@@ -8,7 +8,7 @@ website:
     search: true #enable-search-bar #全站搜寻
     left:
       - href: index.qmd
-        text: 课程介绍(Intro.)
+        text: 课程介绍
       - text: 软件下载 
         menu:
           - href: https://mirrors.tuna.tsinghua.edu.cn/CRAN/
@@ -49,7 +49,7 @@ website:
             text: 课本Ch6-1数据 
           - href: resources/Data-Ch6-2.xlsx
             text: 课本Ch6-2数据 
-      - text: 补充讲义 
+      - text: 老师补充讲义 
         menu:
           - href: Liu-补充讲义1-新媒体数据分析指标.qmd
             text: Liu-补充讲义1-新媒体数据分析指标   
