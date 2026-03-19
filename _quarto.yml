@@ -3,12 +3,12 @@ project:
   output-dir: docs
   
 website:
-  title: "新媒体数据分析与应用"
+  title: "新媒体数据分析与应用2"
   navbar:
     search: true #enable-search-bar #全站搜寻
     left:
       - href: index.qmd
-        text: 课程介绍
+        text: 课程介绍(Intro.)
       - text: 软件下载 
         menu:
           - href: https://mirrors.tuna.tsinghua.edu.cn/CRAN/

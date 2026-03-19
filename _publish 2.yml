@@ -1,0 +1,4 @@
+- source: project
+  netlify:
+    - id: bd1b0fcd-a432-4ab4-bb77-43be6898fb84
+      url: https://new-media-data-analysis.netlify.app
