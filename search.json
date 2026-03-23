@@ -1,338 +1,177 @@
 [
   {
-    "objectID": "Liu-补充讲义1-新媒体数据分析指标.html",
-    "href": "Liu-补充讲义1-新媒体数据分析指标.html",
-    "title": "Liu-补充讲义1-新媒体数据分析指标",
+    "objectID": "Resources.html",
+    "href": "Resources.html",
+    "title": "Teaching Resources",
     "section": "",
-    "text": "AARRR MODEL"
+    "text": "Download R (CRAN)\nhttps://mirrors.tuna.tsinghua.edu.cn/CRAN/"
   },
   {
-    "objectID": "Liu-补充讲义1-新媒体数据分析指标.html#cpmcost-per-mill",
-    "href": "Liu-补充讲义1-新媒体数据分析指标.html#cpmcost-per-mill",
-    "title": "Liu-补充讲义1-新媒体数据分析指标",
-    "section": "1.1 CPM（Cost Per Mill）",
-    "text": "1.1 CPM（Cost Per Mill）\n指每千次曝光的成本，它是衡量广告投放效率的重要指标，反映了广告主为每千次广告曝光所支付的费用。CPM越低，表示广告投放效率越高，广告主能够以更低的成本获得更多的曝光机会。\n\n1.1.1 计算公式：\n\\[\n\\text{CPM} = \\left( \\frac{\\text{总花费成本}}{\\text{总曝光次数}} \\right) \\times 1,000\n\\]\n\n\n1.1.2 计算示例：\n假设一个广告活动的总花费成本为5000元，总曝光次数为200000次，那么CPM的计算如下：\n\\[\n\\begin{aligned}\n\\text{CPM} &= \\frac{5,000}{200,000} \\times 1,000 \\\\\n           &= 0.025 \\times 1,000 \\\\\n           &= 25\n\\end{aligned}\n\\]\n因此，该广告活动的CPM为25元，意味着广告主每获得1000次曝光需要支付25元的费用。"
-  },
-  {
-    "objectID": "Liu-补充讲义1-新媒体数据分析指标.html#cpccost-per-click",
-    "href": "Liu-补充讲义1-新媒体数据分析指标.html#cpccost-per-click",
-    "title": "Liu-补充讲义1-新媒体数据分析指标",
-    "section": "1.2 CPC（Cost Per Click）",
-    "text": "1.2 CPC（Cost Per Click）\n指每次点击的成本，是衡量广告投放效果的重要指标，反映了广告主为每次用户点击所支付的费用。CPC越低，表示广告投放效率越高，广告主能够以更低的成本吸引更多的用户点击。\n\n1.2.1 计算公式：\n\\[\n\\text{CPC} = \\left( \\frac{\\text{总花费成本}}{\\text{总点击次数}} \\right)\n\\]\n\n\n1.2.2 计算示例：\n假设你投放了一个网页广告，想吸引人进某个网站，总花费 3,000元，该网页广告总点击次数150次。那么CPC的计算如下：\n\\[\n\\begin{aligned}\n\\text{CPC} &= \\frac{3,000}{150}  \\\\\n           &= 20\n\\end{aligned}\n\\]\n每吸引1个潜在用户点进网站，需要支付20元。"
-  },
-  {
-    "objectID": "Liu-补充讲义1-新媒体数据分析指标.html#cpacost-per-action",
-    "href": "Liu-补充讲义1-新媒体数据分析指标.html#cpacost-per-action",
-    "title": "Liu-补充讲义1-新媒体数据分析指标",
-    "section": "1.3 CPA（Cost Per Action）",
-    "text": "1.3 CPA（Cost Per Action）\n指每次行动的成本， 计算逻辑是：总广告花费除以实际达成的行动（转换）次数。是衡量广告投放效果的重要指标，反映了广告主为每次用户完成特定行动所支付的费用。CPA越低，表示广告投放效率越高，广告主能够以更低的成本促使更多的用户完成特定行动。「行动」的定义由你決定，常見的包括：完成報名、购买產品、下载 App、填寫谘询表單等。\n\n1.3.1 计算公式：\n\\[\n\\text{CPA} = \\left( \\frac{\\text{总花费成本}}{\\text{总转化次数}} \\right)\n\\]\n\n\n1.3.2 计算示例：\n假设你举办了一場「线上讲座」，並透过广告导流报名： 总广告花费： 10,000 元，总点击数 (CPC 階段)： 500 次， 最终完成报名人数： 20 。\n那么CPA的计算如下：\n\\[\n\\begin{aligned}\n\\text{CPA} &= \\frac{10,000}{20}  \\\\\n           &= 50\n\\end{aligned}\n\\]\n每促成1个用户完成报名，需要支付50元的费用。这个CPA值可以帮助你评估广告投放的效果，并决定是否需要调整广告策略以降低CPA，提高转化率。"
-  },
-  {
-    "objectID": "Liu-补充讲义1-新媒体数据分析指标.html#三大指標比較表-cpm-cpc-cpa",
-    "href": "Liu-补充讲义1-新媒体数据分析指标.html#三大指標比較表-cpm-cpc-cpa",
-    "title": "Liu-补充讲义1-新媒体数据分析指标",
-    "section": "1.4 三大指標比較表 (CPM / CPC / CPA)",
-    "text": "1.4 三大指標比較表 (CPM / CPC / CPA)\n\n\n\n\n\n\n\n\n\n指标\n英文\n核心关注点\n范例\n\n\n\n\nCPM\nCost Per Mille\n品牌曝光 (被看見)\n花 1,000 元让 10,000 人看到\n\n\nCPC\nCost Per Click\n网站流量 (点進來)\n花 1,000 元換 100 个人進站。\n\n\nCPA\nCost Per Action\n最終转换 (留资料/買東西）\n花 1,000 元換 2 个人下單。\n\n\n\n\n\n\n\n\n\nImportant\n\n\n\nCPA 最重要\n\n衡量真正的投资报酬率 (ROI)： 点击再多，如果没人买单也是徒劳。CPA 直接告诉你获取一个客户的代价。\n预算控制： 如果你知道一个学员的报名费是 3,000 元，而你的 CPA 是 500 元，那你就能清楚算出利润空间。\n优化转换率 (CVR)： 如果 CPC 很低（很多人进站）但 CPA 很高（没人买），就代表你的网页内容或产品定价出了问题"
-  },
-  {
-    "objectID": "Liu-补充讲义1-新媒体数据分析指标.html#日活跃用户数dau-daily-active-user",
-    "href": "Liu-补充讲义1-新媒体数据分析指标.html#日活跃用户数dau-daily-active-user",
-    "title": "Liu-补充讲义1-新媒体数据分析指标",
-    "section": "2.1 日活跃用户数（DAU, Daily Active User)",
-    "text": "2.1 日活跃用户数（DAU, Daily Active User)\n表示在一天24小时内至少访问过一次网站或应用程序的不重複用戶（Unique Users）(独立用户)數量。不管同一個用户在一天內進出網站多少次，DAU 都只會計算為 1。与此对应的，还有周活跃用户数(WAU, Weekely Active User)与月活跃用户数(MAU, Monthly Active User)。"
-  },
-  {
-    "objectID": "Liu-补充讲义1-新媒体数据分析指标.html#用户黏着度stick-rate",
-    "href": "Liu-补充讲义1-新媒体数据分析指标.html#用户黏着度stick-rate",
-    "title": "Liu-补充讲义1-新媒体数据分析指标",
-    "section": "2.2 用户黏着度（Stick Rate）",
-    "text": "2.2 用户黏着度（Stick Rate）\n指用户在一定时间内的活跃程度，通常通过DAU（每日活跃用户数）与MAU（月活跃用户数）的比率来衡量。这个指标反映了用户对网站或应用程序的忠诚度和使用频率。用户黏着度越高，表示用户更频繁地使用该平台，说明平台具有较强的吸引力和用户粘性。\n\\[\n\\text{用戶黏著度(Stick Rate)} = \\left( \\frac{\\text{DAU}}{\\text{MAU}} \\right) \\times 100\\%\n\\]\n\n2.2.1 舉例：\n如果某老师开设一门线上课程，有 100 名學生选修 (MAU = 100)。每天固定會上線看進度的學生有 20 名 (DAU = 20)，则黏著度： \\(20 / 100 = 20\\%\\)。"
-  },
-  {
-    "objectID": "Liu-补充讲义1-新媒体数据分析指标.html#pvpage-view",
-    "href": "Liu-补充讲义1-新媒体数据分析指标.html#pvpage-view",
-    "title": "Liu-补充讲义1-新媒体数据分析指标",
-    "section": "2.3 PV(Page View)",
-    "text": "2.3 PV(Page View)\n指页面浏览量，网页被「加载」或「刷新」的总次数。只要页面被读取一次，PV 就会加 1。衡量网站或应用程序的访问量。每当用户访问一个页面时，PV就会增加一次。PV是评估网站流量和用户兴趣的重要指标，通常用于分析网站的受欢迎程度和内容的吸引力。\n计算逻辑： 不管是谁看的，只要有开启网页的动作就计算。 同一个使用者反覆刷新页面，PV 会不断累积。"
-  },
-  {
-    "objectID": "Liu-补充讲义1-新媒体数据分析指标.html#uvunique-visitor",
-    "href": "Liu-补充讲义1-新媒体数据分析指标.html#uvunique-visitor",
-    "title": "Liu-补充讲义1-新媒体数据分析指标",
-    "section": "2.4 UV(Unique Visitor)",
-    "text": "2.4 UV(Unique Visitor)\n指独立访客数(唯一页面浏览量)，在同一个工作阶段内，特定网页被浏览的「次数」。它排除了重复浏览，以「人（精确来说是浏览器/Cookie）」为单位。衡量在一定时间内访问网站或应用程序的独立用户数量。每个独立用户只会被计算一次，无论他们访问了多少次。UV是评估网站受众规模和用户覆盖范围的重要指标，通常用于分析网站的用户基础和市场渗透率。\n计算逻辑： 同一个使用者在一次访问中，不管看几次同个页面，只算 1 次。能更准确地反映出「有多少人」看过这个内容。"
-  },
-  {
-    "objectID": "Liu-补充讲义1-新媒体数据分析指标.html#比较pvuv",
-    "href": "Liu-补充讲义1-新媒体数据分析指标.html#比较pvuv",
-    "title": "Liu-补充讲义1-新媒体数据分析指标",
-    "section": "2.5 比较(PV;UV)",
-    "text": "2.5 比较(PV;UV)\n假设有一位学生进入某老师的课程网站，发生了以下行为：\n1.进入 首页 (Home)\n2.点击进入 课程大纲 (Syllabus)\n3.按「重新整理」刷新 课程大纲\n4.回到 首页\n5.再次点进 课程大纲\n統計結果如下：\n\n\n\n页面\nPV\nUV\n\n\n\n\n首页\n2\n1\n\n\n课程大纲\n3\n1\n\n\n总计\n5\n2\n\n\n\n这两个数字的「差距」能告诉你很多关于网页内容的信息：\n\nPV 远高于 UV：\n\n—可能是好现象： 代表内容非常吸引人，使用者反覆回来查看（例如：参考资料、工具页面）。\n—也可能是坏现象： 可能代表网页加载有问题、信息太复杂，导致使用者必须不断重新整理或来回跳转才能看清楚。\n\nPV 与 UV接近：\n\n—代表使用者通常「看完就走」，没有回头再看的动力。"
-  },
-  {
-    "objectID": "补充讲义1-新媒体数据分析指标 2.html",
-    "href": "补充讲义1-新媒体数据分析指标 2.html",
-    "title": "新媒体数据分析指标-补充",
+    "objectID": "Resources.html#r",
+    "href": "Resources.html#r",
+    "title": "Teaching Resources",
     "section": "",
-    "text": "AARRR MODEL"
+    "text": "Download R (CRAN)\nhttps://mirrors.tuna.tsinghua.edu.cn/CRAN/"
   },
   {
-    "objectID": "补充讲义1-新媒体数据分析指标 2.html#cpmcost-per-mill",
-    "href": "补充讲义1-新媒体数据分析指标 2.html#cpmcost-per-mill",
-    "title": "新媒体数据分析指标-补充",
-    "section": "2.1 CPM（Cost Per Mill）",
-    "text": "2.1 CPM（Cost Per Mill）\n指每千次曝光的成本，它是衡量广告投放效率的重要指标，反映了广告主为每千次广告曝光所支付的费用。CPM越低，表示广告投放效率越高，广告主能够以更低的成本获得更多的曝光机会。\n\n2.1.1 计算公式：\n\\[\n\\text{CPM} = \\left( \\frac{\\text{总花费成本}}{\\text{总曝光次数}} \\right) \\times 1,000\n\\]\n\n\n2.1.2 计算示例：\n假设一个广告活动的总花费成本为5000元，总曝光次数为200000次，那么CPM的计算如下：\n\\[\n\\begin{aligned}\n\\text{CPM} &= \\frac{5,000}{200,000} \\times 1,000 \\\\\n           &= 0.025 \\times 1,000 \\\\\n           &= 25\n\\end{aligned}\n\\]\n因此，该广告活动的CPM为25元，意味着广告主每获得1000次曝光需要支付25元的费用。"
+    "objectID": "Resources.html#rstudio",
+    "href": "Resources.html#rstudio",
+    "title": "Teaching Resources",
+    "section": "RStudio",
+    "text": "RStudio\n\nDownload RStudio Desktop(posit)\nhttps://posit.co/downloads/"
   },
   {
-    "objectID": "补充讲义1-新媒体数据分析指标 2.html#cpccost-per-click",
-    "href": "补充讲义1-新媒体数据分析指标 2.html#cpccost-per-click",
-    "title": "新媒体数据分析指标-补充",
-    "section": "2.2 CPC（Cost Per Click）",
-    "text": "2.2 CPC（Cost Per Click）\n指每次点击的成本，是衡量广告投放效果的重要指标，反映了广告主为每次用户点击所支付的费用。CPC越低，表示广告投放效率越高，广告主能够以更低的成本吸引更多的用户点击。\n\n2.2.1 计算公式：\n\\[\n\\text{CPC} = \\left( \\frac{\\text{总花费成本}}{\\text{总点击次数}} \\right)\n\\]\n\n\n2.2.2 计算示例：\n假设你投放了一个网页广告，想吸引人进某个网站，总花费 3,000元，该网页广告总点击次数150次。那么CPC的计算如下：\n\\[\n\\begin{aligned}\n\\text{CPC} &= \\frac{3,000}{150}  \\\\\n           &= 20\n\\end{aligned}\n\\]\n每吸引1个潜在用户点进网站，需要支付20元。"
+    "objectID": "Resources.html#quarto",
+    "href": "Resources.html#quarto",
+    "title": "Teaching Resources",
+    "section": "Quarto",
+    "text": "Quarto\n\nQuarto Homepage\nhttps://quarto.org/\nDownload Quarto\nhttps://quarto.org/docs/get-started/\nQuarto Guide\nhttps://quarto.org/docs/guide/"
   },
   {
-    "objectID": "补充讲义1-新媒体数据分析指标 2.html#cpacost-per-action",
-    "href": "补充讲义1-新媒体数据分析指标 2.html#cpacost-per-action",
-    "title": "新媒体数据分析指标-补充",
-    "section": "2.3 CPA（Cost Per Action）",
-    "text": "2.3 CPA（Cost Per Action）\n指每次行动的成本， 计算逻辑是：总广告花费除以实际达成的行动（转换）次数。是衡量广告投放效果的重要指标，反映了广告主为每次用户完成特定行动所支付的费用。CPA越低，表示广告投放效率越高，广告主能够以更低的成本促使更多的用户完成特定行动。「行动」的定义由你決定，常見的包括：完成報名、购买產品、下载 App、填寫谘询表單等。\n\n2.3.1 计算公式：\n\\[\n\\text{CPA} = \\left( \\frac{\\text{总花费成本}}{\\text{总转化次数}} \\right)\n\\]\n\n\n2.3.2 计算示例：\n假设你举办了一場「线上讲座」，並透过广告导流报名： 总广告花费： 10,000 元，总点击数 (CPC 階段)： 500 次， 最终完成报名人数： 20 。\n那么CPA的计算如下：\n\\[\n\\begin{aligned}\n\\text{CPA} &= \\frac{10,000}{20}  \\\\\n           &= 50\n\\end{aligned}\n\\]\n每促成1个用户完成报名，需要支付50元的费用。这个CPA值可以帮助你评估广告投放的效果，并决定是否需要调整广告策略以降低CPA，提高转化率。"
+    "objectID": "Resources.html#statistics",
+    "href": "Resources.html#statistics",
+    "title": "Teaching Resources",
+    "section": "Statistics",
+    "text": "Statistics\n\nThe Art and Science of Learning from Data\nhttps://artofstat.com/"
   },
   {
-    "objectID": "补充讲义1-新媒体数据分析指标 2.html#三大指標比較表-cpm-cpc-cpa",
-    "href": "补充讲义1-新媒体数据分析指标 2.html#三大指標比較表-cpm-cpc-cpa",
-    "title": "新媒体数据分析指标-补充",
-    "section": "2.4 三大指標比較表 (CPM / CPC / CPA)",
-    "text": "2.4 三大指標比較表 (CPM / CPC / CPA)\n\n\n\n\n\n\n\n\n\n指标\n英文\n核心关注点\n范例\n\n\n\n\nCPM\nCost Per Mille\n品牌曝光 (被看見)\n花 1,000 元让 10,000 人看到\n\n\nCPC\nCost Per Click\n网站流量 (点進來)\n花 1,000 元換 100 个人進站。\n\n\nCPA\nCost Per Action\n最終转换 (留资料/買東西）\n花 1,000 元換 2 个人下單。\n\n\n\n\n\n\n\n\n\nImportant\n\n\n\nCPA 最重要\n\n衡量真正的投资报酬率 (ROI)： 点击再多，如果没人买单也是徒劳。CPA 直接告诉你获取一个客户的代价。\n预算控制： 如果你知道一个学员的报名费是 3,000 元，而你的 CPA 是 500 元，那你就能清楚算出利润空间。\n优化转换率 (CVR)： 如果 CPC 很低（很多人进站）但 CPA 很高（没人买），就代表你的网页内容或产品定价出了问题"
+    "objectID": "Resources.html#wcpluspro",
+    "href": "Resources.html#wcpluspro",
+    "title": "Teaching Resources",
+    "section": "wcplusPro",
+    "text": "wcplusPro\n\nwcplusPro 下載安裝圖文教程\nhttps://www.wcplus.cn/download"
   },
   {
-    "objectID": "补充讲义1-新媒体数据分析指标 2.html#日活跃用户数dau-daily-active-user",
-    "href": "补充讲义1-新媒体数据分析指标 2.html#日活跃用户数dau-daily-active-user",
-    "title": "新媒体数据分析指标-补充",
-    "section": "3.1 日活跃用户数（DAU, Daily Active User)",
-    "text": "3.1 日活跃用户数（DAU, Daily Active User)\n表示在一天24小时内至少访问过一次网站或应用程序的不重複用戶（Unique Users）(独立用户)數量。不管同一個用户在一天內進出網站多少次，DAU 都只會計算為 1。与此对应的，还有周活跃用户数(WAU, Weekely Active User)与月活跃用户数(MAU, Monthly Active User)。"
+    "objectID": "R.html",
+    "href": "R.html",
+    "title": "R",
+    "section": "",
+    "text": "R讲义：R+RStudio的下载与安装\nR讲义：R基本语法介绍\nR讲义：数据汇入/变量标签\nR讲义：数据档个案的编辑管理\nR讲义：数据档变量的编辑管理\nR讲义：样本代表性检验与加权\nR讲义：描述统计\nR讲义：百分比交叉分析与卡方检验\nR讲义：平均数差异分析与t/F检验\nR讲义：线性回归分析"
   },
   {
-    "objectID": "补充讲义1-新媒体数据分析指标 2.html#用户黏着度stick-rate",
-    "href": "补充讲义1-新媒体数据分析指标 2.html#用户黏着度stick-rate",
-    "title": "新媒体数据分析指标-补充",
-    "section": "3.2 用户黏着度（Stick Rate）",
-    "text": "3.2 用户黏着度（Stick Rate）\n指用户在一定时间内的活跃程度，通常通过DAU（每日活跃用户数）与MAU（月活跃用户数）的比率来衡量。这个指标反映了用户对网站或应用程序的忠诚度和使用频率。用户黏着度越高，表示用户更频繁地使用该平台，说明平台具有较强的吸引力和用户粘性。\n\\[\n\\text{用戶黏著度(Stick Rate)} = \\left( \\frac{\\text{DAU}}{\\text{MAU}} \\right) \\times 100\\%\n\\]\n\n3.2.1 舉例：\n如果某老师开设一门线上课程，有 100 名學生选修 (MAU = 100)。每天固定會上線看進度的學生有 20 名 (DAU = 20)，则黏著度： \\(20 / 100 = 20\\%\\)。"
+    "objectID": "R.html#r-讲义",
+    "href": "R.html#r-讲义",
+    "title": "R",
+    "section": "",
+    "text": "R讲义：R+RStudio的下载与安装\nR讲义：R基本语法介绍\nR讲义：数据汇入/变量标签\nR讲义：数据档个案的编辑管理\nR讲义：数据档变量的编辑管理\nR讲义：样本代表性检验与加权\nR讲义：描述统计\nR讲义：百分比交叉分析与卡方检验\nR讲义：平均数差异分析与t/F检验\nR讲义：线性回归分析"
   },
   {
-    "objectID": "补充讲义1-新媒体数据分析指标 2.html#pvpage-view",
-    "href": "补充讲义1-新媒体数据分析指标 2.html#pvpage-view",
-    "title": "新媒体数据分析指标-补充",
-    "section": "3.3 PV(Page View)",
-    "text": "3.3 PV(Page View)\n指页面浏览量，网页被「加载」或「刷新」的总次数。只要页面被读取一次，PV 就会加 1。衡量网站或应用程序的访问量。每当用户访问一个页面时，PV就会增加一次。PV是评估网站流量和用户兴趣的重要指标，通常用于分析网站的受欢迎程度和内容的吸引力。\n计算逻辑： 不管是谁看的，只要有开启网页的动作就计算。 同一个使用者反覆刷新页面，PV 会不断累积。"
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About Me",
+    "section": "",
+    "text": "Prof. Vincent N Liu, PhD (PhD in Politics / PhD in Communication)\n\n\n\nPolitical Communication\nElection Forecasting\nPublic Opinion Survey\nQuantitative Data Analysis\nComputational Social Science\n\n\n\nEmail: simonfair@icloud.com\nWechat: simonfair"
   },
   {
-    "objectID": "补充讲义1-新媒体数据分析指标 2.html#uvunique-visitor",
-    "href": "补充讲义1-新媒体数据分析指标 2.html#uvunique-visitor",
-    "title": "新媒体数据分析指标-补充",
-    "section": "3.4 UV(Unique Visitor)",
-    "text": "3.4 UV(Unique Visitor)\n指独立访客数(唯一页面浏览量)，在同一个工作阶段内，特定网页被浏览的「次数」。它排除了重复浏览，以「人（精确来说是浏览器/Cookie）」为单位。衡量在一定时间内访问网站或应用程序的独立用户数量。每个独立用户只会被计算一次，无论他们访问了多少次。UV是评估网站受众规模和用户覆盖范围的重要指标，通常用于分析网站的用户基础和市场渗透率。\n计算逻辑： 同一个使用者在一次访问中，不管看几次同个页面，只算 1 次。能更准确地反映出「有多少人」看过这个内容。"
-  },
-  {
-    "objectID": "补充讲义1-新媒体数据分析指标 2.html#比较pvuv",
-    "href": "补充讲义1-新媒体数据分析指标 2.html#比较pvuv",
-    "title": "新媒体数据分析指标-补充",
-    "section": "3.5 比较(PV;UV)",
-    "text": "3.5 比较(PV;UV)\n假设有一位学生进入某老师的课程网站，发生了以下行为：\n1.进入 首页 (Home)\n2.点击进入 课程大纲 (Syllabus)\n3.按「重新整理」刷新 课程大纲\n4.回到 首页\n5.再次点进 课程大纲\n統計結果如下：\n\n\n\n页面\nPV\nUV\n\n\n\n\n首页\n2\n1\n\n\n课程大纲\n3\n1\n\n\n总计\n5\n2\n\n\n\n这两个数字的「差距」能告诉你很多关于网页内容的信息：\n\nPV 远高于 UV：\n\n—可能是好现象： 代表内容非常吸引人，使用者反覆回来查看（例如：参考资料、工具页面）。\n—也可能是坏现象： 可能代表网页加载有问题、信息太复杂，导致使用者必须不断重新整理或来回跳转才能看清楚。\n\nPV 与 UV接近：\n\n—代表使用者通常「看完就走」，没有回头再看的动力。"
+    "objectID": "about.html#vincent-n.-liu",
+    "href": "about.html#vincent-n.-liu",
+    "title": "About Me",
+    "section": "",
+    "text": "Prof. Vincent N Liu, PhD (PhD in Politics / PhD in Communication)\n\n\n\nPolitical Communication\nElection Forecasting\nPublic Opinion Survey\nQuantitative Data Analysis\nComputational Social Science\n\n\n\nEmail: simonfair@icloud.com\nWechat: simonfair"
   },
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "课程介绍",
+    "title": "Home",
     "section": "",
-    "text": "学期：2025-2026-2"
+    "text": "This is a website of Vincent N. Liu\nTo learn more about Quarto websites visit https://quarto.org/docs/websites."
   },
   {
-    "objectID": "index.html#教师刘念夏-教授-博士",
-    "href": "index.html#教师刘念夏-教授-博士",
-    "title": "课程介绍",
-    "section": "教师：刘念夏 教授 博士",
-    "text": "教师：刘念夏 教授 博士\n\n现职\n\n闽南师范大学新闻传播学院教授\n\n\n\n学历\n\n英国牛津大学(Oxford)进修研究\n英国艾塞克斯大学(Essex)政府系政治学博士\n台湾世新大学(SHU)传播学博士\n美国南加利福尼亚大学(USC)公共政策与管理硕士\n台湾政治大学(NCCU)政治学硕士\n\nWechat：simomfair"
-  },
-  {
-    "objectID": "index.html#课程目标",
-    "href": "index.html#课程目标",
-    "title": "课程介绍",
-    "section": "1 课程目标",
-    "text": "1 课程目标\n完成课程后，学生能够：\n\n认识新媒体的数据类型\n理解新媒体的数据方法论\n进行新媒体平台的数据分析"
-  },
-  {
-    "objectID": "index.html#上课教材",
-    "href": "index.html#上课教材",
-    "title": "课程介绍",
-    "section": "2 上课教材",
-    "text": "2 上课教材\n\n朱小栋. 新媒体数据分析与应用. 电子工业出版社, 2022.\n教师补充讲义"
-  },
-  {
-    "objectID": "index.html#考核方式",
-    "href": "index.html#考核方式",
-    "title": "课程介绍",
-    "section": "3 考核方式",
-    "text": "3 考核方式\n\n\n\n项目\n占比\n\n\n\n\n平时出勤\n30%\n\n\n期中作业/考试\n30％\n\n\n期末考试(学校集体安排)\n40%"
-  },
-  {
-    "objectID": "index.html#教学进度可依实际授课状况调整",
-    "href": "index.html#教学进度可依实际授课状况调整",
-    "title": "课程介绍",
-    "section": "4 教学进度(可依实际授课状况调整)",
-    "text": "4 教学进度(可依实际授课状况调整)\n\n\n\n周次\n内容\n\n\n\n\n第1周 3/12\n课程介绍+绪论\n\n\n第2周 3/19\n新媒体数据分析指标(1)\n\n\n第3周 3/26\n新媒体数据分析指标(2)\n\n\n第4周 4/2\n新媒体数据的准备\n\n\n第5周 4/9\n新媒体数据的处理\n\n\n第6周 4/16\n新媒体数据的分析视角\n\n\n第7周 4/23\n新媒体数据分析的可视化(1)\n\n\n第8周 4/30\n新媒体数据分析的可视化(2)\n\n\n第9周 5/7\n第一次作业/考试评测\n\n\n第10周 5/14\n微信数据分析(1)\n\n\n第11周 5/21\n微信数据分析(2)\n\n\n第12周 5/28\n微博数据分析(1)\n\n\n第13周 6/4\n微博数据分析(2)\n\n\n第14周 6/11\n抖音数据分析(1)\n\n\n第15周 6/18\n抖音数据分析(2)\n\n\n第16周 6/25\n第二次作业评测\n\n\n第17-18周 6/29-7/10\n期末考试(学校组织考试)"
-  },
-  {
-    "objectID": "Liu-补充讲义1-新媒体数据分析指标 2.html",
-    "href": "Liu-补充讲义1-新媒体数据分析指标 2.html",
-    "title": "Liu-补充讲义1-新媒体数据分析指标",
+    "objectID": "编码员信度计算.html",
+    "href": "编码员信度计算.html",
+    "title": "内容分析编码员信度计算",
     "section": "",
-    "text": "AARRR MODEL"
+    "text": "编码员 A 和 B 对 10 个样本(例如：10个视频)的判读结果\n\ncoder_A &lt;- c(1, 0, 2, 1, 1, 0, 2, 1, 0, 1)\ncoder_B &lt;- c(1, 0, 1, 1, 1, 0, 2, 0, 0, 1)\n\n\n\n\n\ndata &lt;- data.frame(coder_A, coder_B)\n\n\n\n\n\nprint(data)\n\n   coder_A coder_B\n1        1       1\n2        0       0\n3        2       1\n4        1       1\n5        1       1\n6        0       0\n7        2       2\n8        1       0\n9        0       0\n10       1       1"
   },
   {
-    "objectID": "Liu-补充讲义1-新媒体数据分析指标 2.html#cpmcost-per-mill",
-    "href": "Liu-补充讲义1-新媒体数据分析指标 2.html#cpmcost-per-mill",
-    "title": "Liu-补充讲义1-新媒体数据分析指标",
-    "section": "1.1 CPM（Cost Per Mill）",
-    "text": "1.1 CPM（Cost Per Mill）\n指每千次曝光的成本，它是衡量广告投放效率的重要指标，反映了广告主为每千次广告曝光所支付的费用。CPM越低，表示广告投放效率越高，广告主能够以更低的成本获得更多的曝光机会。\n\n1.1.1 计算公式：\n\\[\n\\text{CPM} = \\left( \\frac{\\text{总花费成本}}{\\text{总曝光次数}} \\right) \\times 1,000\n\\]\n\n\n1.1.2 计算示例：\n假设一个广告活动的总花费成本为5000元，总曝光次数为200000次，那么CPM的计算如下：\n\\[\n\\begin{aligned}\n\\text{CPM} &= \\frac{5,000}{200,000} \\times 1,000 \\\\\n           &= 0.025 \\times 1,000 \\\\\n           &= 25\n\\end{aligned}\n\\]\n因此，该广告活动的CPM为25元，意味着广告主每获得1000次曝光需要支付25元的费用。"
-  },
-  {
-    "objectID": "Liu-补充讲义1-新媒体数据分析指标 2.html#cpccost-per-click",
-    "href": "Liu-补充讲义1-新媒体数据分析指标 2.html#cpccost-per-click",
-    "title": "Liu-补充讲义1-新媒体数据分析指标",
-    "section": "1.2 CPC（Cost Per Click）",
-    "text": "1.2 CPC（Cost Per Click）\n指每次点击的成本，是衡量广告投放效果的重要指标，反映了广告主为每次用户点击所支付的费用。CPC越低，表示广告投放效率越高，广告主能够以更低的成本吸引更多的用户点击。\n\n1.2.1 计算公式：\n\\[\n\\text{CPC} = \\left( \\frac{\\text{总花费成本}}{\\text{总点击次数}} \\right)\n\\]\n\n\n1.2.2 计算示例：\n假设你投放了一个网页广告，想吸引人进某个网站，总花费 3,000元，该网页广告总点击次数150次。那么CPC的计算如下：\n\\[\n\\begin{aligned}\n\\text{CPC} &= \\frac{3,000}{150}  \\\\\n           &= 20\n\\end{aligned}\n\\]\n每吸引1个潜在用户点进网站，需要支付20元。"
-  },
-  {
-    "objectID": "Liu-补充讲义1-新媒体数据分析指标 2.html#cpacost-per-action",
-    "href": "Liu-补充讲义1-新媒体数据分析指标 2.html#cpacost-per-action",
-    "title": "Liu-补充讲义1-新媒体数据分析指标",
-    "section": "1.3 CPA（Cost Per Action）",
-    "text": "1.3 CPA（Cost Per Action）\n指每次行动的成本， 计算逻辑是：总广告花费除以实际达成的行动（转换）次数。是衡量广告投放效果的重要指标，反映了广告主为每次用户完成特定行动所支付的费用。CPA越低，表示广告投放效率越高，广告主能够以更低的成本促使更多的用户完成特定行动。「行动」的定义由你決定，常見的包括：完成報名、购买產品、下载 App、填寫谘询表單等。\n\n1.3.1 计算公式：\n\\[\n\\text{CPA} = \\left( \\frac{\\text{总花费成本}}{\\text{总转化次数}} \\right)\n\\]\n\n\n1.3.2 计算示例：\n假设你举办了一場「线上讲座」，並透过广告导流报名： 总广告花费： 10,000 元，总点击数 (CPC 階段)： 500 次， 最终完成报名人数： 20 。\n那么CPA的计算如下：\n\\[\n\\begin{aligned}\n\\text{CPA} &= \\frac{10,000}{20}  \\\\\n           &= 50\n\\end{aligned}\n\\]\n每促成1个用户完成报名，需要支付50元的费用。这个CPA值可以帮助你评估广告投放的效果，并决定是否需要调整广告策略以降低CPA，提高转化率。"
-  },
-  {
-    "objectID": "Liu-补充讲义1-新媒体数据分析指标 2.html#三大指標比較表-cpm-cpc-cpa",
-    "href": "Liu-补充讲义1-新媒体数据分析指标 2.html#三大指標比較表-cpm-cpc-cpa",
-    "title": "Liu-补充讲义1-新媒体数据分析指标",
-    "section": "1.4 三大指標比較表 (CPM / CPC / CPA)",
-    "text": "1.4 三大指標比較表 (CPM / CPC / CPA)\n\n\n\n\n\n\n\n\n\n指标\n英文\n核心关注点\n范例\n\n\n\n\nCPM\nCost Per Mille\n品牌曝光 (被看見)\n花 1,000 元让 10,000 人看到\n\n\nCPC\nCost Per Click\n网站流量 (点進來)\n花 1,000 元換 100 个人進站。\n\n\nCPA\nCost Per Action\n最終转换 (留资料/買東西）\n花 1,000 元換 2 个人下單。\n\n\n\n\n\n\n\n\n\nImportant\n\n\n\nCPA 最重要\n\n衡量真正的投资报酬率 (ROI)： 点击再多，如果没人买单也是徒劳。CPA 直接告诉你获取一个客户的代价。\n预算控制： 如果你知道一个学员的报名费是 3,000 元，而你的 CPA 是 500 元，那你就能清楚算出利润空间。\n优化转换率 (CVR)： 如果 CPC 很低（很多人进站）但 CPA 很高（没人买），就代表你的网页内容或产品定价出了问题"
-  },
-  {
-    "objectID": "Liu-补充讲义1-新媒体数据分析指标 2.html#日活跃用户数dau-daily-active-user",
-    "href": "Liu-补充讲义1-新媒体数据分析指标 2.html#日活跃用户数dau-daily-active-user",
-    "title": "Liu-补充讲义1-新媒体数据分析指标",
-    "section": "2.1 日活跃用户数（DAU, Daily Active User)",
-    "text": "2.1 日活跃用户数（DAU, Daily Active User)\n表示在一天24小时内至少访问过一次网站或应用程序的不重複用戶（Unique Users）(独立用户)數量。不管同一個用户在一天內進出網站多少次，DAU 都只會計算為 1。与此对应的，还有周活跃用户数(WAU, Weekely Active User)与月活跃用户数(MAU, Monthly Active User)。"
-  },
-  {
-    "objectID": "Liu-补充讲义1-新媒体数据分析指标 2.html#用户黏着度stick-rate",
-    "href": "Liu-补充讲义1-新媒体数据分析指标 2.html#用户黏着度stick-rate",
-    "title": "Liu-补充讲义1-新媒体数据分析指标",
-    "section": "2.2 用户黏着度（Stick Rate）",
-    "text": "2.2 用户黏着度（Stick Rate）\n指用户在一定时间内的活跃程度，通常通过DAU（每日活跃用户数）与MAU（月活跃用户数）的比率来衡量。这个指标反映了用户对网站或应用程序的忠诚度和使用频率。用户黏着度越高，表示用户更频繁地使用该平台，说明平台具有较强的吸引力和用户粘性。\n\\[\n\\text{用戶黏著度(Stick Rate)} = \\left( \\frac{\\text{DAU}}{\\text{MAU}} \\right) \\times 100\\%\n\\]\n\n2.2.1 舉例：\n如果某老师开设一门线上课程，有 100 名學生选修 (MAU = 100)。每天固定會上線看進度的學生有 20 名 (DAU = 20)，则黏著度： \\(20 / 100 = 20\\%\\)。"
-  },
-  {
-    "objectID": "Liu-补充讲义1-新媒体数据分析指标 2.html#pvpage-view",
-    "href": "Liu-补充讲义1-新媒体数据分析指标 2.html#pvpage-view",
-    "title": "Liu-补充讲义1-新媒体数据分析指标",
-    "section": "2.3 PV(Page View)",
-    "text": "2.3 PV(Page View)\n指页面浏览量，网页被「加载」或「刷新」的总次数。只要页面被读取一次，PV 就会加 1。衡量网站或应用程序的访问量。每当用户访问一个页面时，PV就会增加一次。PV是评估网站流量和用户兴趣的重要指标，通常用于分析网站的受欢迎程度和内容的吸引力。\n计算逻辑： 不管是谁看的，只要有开启网页的动作就计算。 同一个使用者反覆刷新页面，PV 会不断累积。"
-  },
-  {
-    "objectID": "Liu-补充讲义1-新媒体数据分析指标 2.html#uvunique-visitor",
-    "href": "Liu-补充讲义1-新媒体数据分析指标 2.html#uvunique-visitor",
-    "title": "Liu-补充讲义1-新媒体数据分析指标",
-    "section": "2.4 UV(Unique Visitor)",
-    "text": "2.4 UV(Unique Visitor)\n指独立访客数(唯一页面浏览量)，在同一个工作阶段内，特定网页被浏览的「次数」。它排除了重复浏览，以「人（精确来说是浏览器/Cookie）」为单位。衡量在一定时间内访问网站或应用程序的独立用户数量。每个独立用户只会被计算一次，无论他们访问了多少次。UV是评估网站受众规模和用户覆盖范围的重要指标，通常用于分析网站的用户基础和市场渗透率。\n计算逻辑： 同一个使用者在一次访问中，不管看几次同个页面，只算 1 次。能更准确地反映出「有多少人」看过这个内容。"
-  },
-  {
-    "objectID": "Liu-补充讲义1-新媒体数据分析指标 2.html#比较pvuv",
-    "href": "Liu-补充讲义1-新媒体数据分析指标 2.html#比较pvuv",
-    "title": "Liu-补充讲义1-新媒体数据分析指标",
-    "section": "2.5 比较(PV;UV)",
-    "text": "2.5 比较(PV;UV)\n假设有一位学生进入某老师的课程网站，发生了以下行为：\n1.进入 首页 (Home)\n2.点击进入 课程大纲 (Syllabus)\n3.按「重新整理」刷新 课程大纲\n4.回到 首页\n5.再次点进 课程大纲\n統計結果如下：\n\n\n\n页面\nPV\nUV\n\n\n\n\n首页\n2\n1\n\n\n课程大纲\n3\n1\n\n\n总计\n5\n2\n\n\n\n这两个数字的「差距」能告诉你很多关于网页内容的信息：\n\nPV 远高于 UV：\n\n—可能是好现象： 代表内容非常吸引人，使用者反覆回来查看（例如：参考资料、工具页面）。\n—也可能是坏现象： 可能代表网页加载有问题、信息太复杂，导致使用者必须不断重新整理或来回跳转才能看清楚。\n\nPV 与 UV接近：\n\n—代表使用者通常「看完就走」，没有回头再看的动力。"
-  },
-  {
-    "objectID": "补充讲义1-新媒体数据分析指标.html",
-    "href": "补充讲义1-新媒体数据分析指标.html",
-    "title": "新媒体数据分析指标-补充",
+    "objectID": "编码员信度计算.html#数据预备",
+    "href": "编码员信度计算.html#数据预备",
+    "title": "内容分析编码员信度计算",
     "section": "",
-    "text": "AARRR MODEL"
+    "text": "编码员 A 和 B 对 10 个样本(例如：10个视频)的判读结果\n\ncoder_A &lt;- c(1, 0, 2, 1, 1, 0, 2, 1, 0, 1)\ncoder_B &lt;- c(1, 0, 1, 1, 1, 0, 2, 0, 0, 1)\n\n\n\n\n\ndata &lt;- data.frame(coder_A, coder_B)\n\n\n\n\n\nprint(data)\n\n   coder_A coder_B\n1        1       1\n2        0       0\n3        2       1\n4        1       1\n5        1       1\n6        0       0\n7        2       2\n8        1       0\n9        0       0\n10       1       1"
   },
   {
-    "objectID": "补充讲义1-新媒体数据分析指标.html#cpmcost-per-mill",
-    "href": "补充讲义1-新媒体数据分析指标.html#cpmcost-per-mill",
-    "title": "新媒体数据分析指标-补充",
-    "section": "2.1 CPM（Cost Per Mill）",
-    "text": "2.1 CPM（Cost Per Mill）\n指每千次曝光的成本，它是衡量广告投放效率的重要指标，反映了广告主为每千次广告曝光所支付的费用。CPM越低，表示广告投放效率越高，广告主能够以更低的成本获得更多的曝光机会。\n\n2.1.1 计算公式：\n\\[\n\\text{CPM} = \\left( \\frac{\\text{总花费成本}}{\\text{总曝光次数}} \\right) \\times 1,000\n\\]\n\n\n2.1.2 计算示例：\n假设一个广告活动的总花费成本为5000元，总曝光次数为200000次，那么CPM的计算如下：\n\\[\n\\begin{aligned}\n\\text{CPM} &= \\frac{5,000}{200,000} \\times 1,000 \\\\\n           &= 0.025 \\times 1,000 \\\\\n           &= 25\n\\end{aligned}\n\\]\n因此，该广告活动的CPM为25元，意味着广告主每获得1000次曝光需要支付25元的费用。"
+    "objectID": "编码员信度计算.html#计算-holstis-alpha2位编码员时使用一般使用",
+    "href": "编码员信度计算.html#计算-holstis-alpha2位编码员时使用一般使用",
+    "title": "内容分析编码员信度计算",
+    "section": "2 计算 Holsti’s Alpha(2位编码员时使用)(一般使用)",
+    "text": "2 计算 Holsti’s Alpha(2位编码员时使用)(一般使用)\n\n2.1 Holsti’s Alpha公式\nHolsti’s Alpha 也称为\\(C.R.\\) (信度系数,Coefficient of Reliability)，计算公式如下：\n\\[\n\\begin{aligned}\n&Holsti's Alpha=C.R. = \\frac{2M}{n_1 + n_2} \\\\\n&其中： \\\\\n&M = 两位编码员编码一致的样本数\\\\\n&n_1 = 编码员n1处理的样本数\\\\\n&n_2 = 编码员n2处理的样本数\\\\\n\\end{aligned}\n\\]\n\n\n2.2 手工计算 Holsti’s Alpha\n\n2.2.1 呈现交叉表\n\nlibrary(sjPlot)\ntab_xtab(data$coder_A, data$coder_B, show.summary = FALSE)\n\n\n\n\ncoder_A\ncoder_B\nTotal\n\n\n0\n1\n2\n\n\n0\n3\n0\n0\n3\n\n\n1\n1\n4\n0\n5\n\n\n2\n0\n1\n1\n2\n\n\nTotal\n4\n5\n1\n10\n\n\n\n\n\n\n\n2.2.2 手工计算\n2位编码员编码一致的数目：3+4+1=8 总编码数目：10\nHolsti’s Alpha = (2 * 8) / (10+10) = 0.8\nHolsti’s Alpha系数虚高，比较水。学术圈比较不常用，较常使用 Cohen’s Kappa。"
   },
   {
-    "objectID": "补充讲义1-新媒体数据分析指标.html#cpccost-per-click",
-    "href": "补充讲义1-新媒体数据分析指标.html#cpccost-per-click",
-    "title": "新媒体数据分析指标-补充",
-    "section": "2.2 CPC（Cost Per Click）",
-    "text": "2.2 CPC（Cost Per Click）\n指每次点击的成本，是衡量广告投放效果的重要指标，反映了广告主为每次用户点击所支付的费用。CPC越低，表示广告投放效率越高，广告主能够以更低的成本吸引更多的用户点击。\n\n2.2.1 计算公式：\n\\[\n\\text{CPC} = \\left( \\frac{\\text{总花费成本}}{\\text{总点击次数}} \\right)\n\\]\n\n\n2.2.2 计算示例：\n假设你投放了一个网页广告，想吸引人进某个网站，总花费 3,000元，该网页广告总点击次数150次。那么CPC的计算如下：\n\\[\n\\begin{aligned}\n\\text{CPC} &= \\frac{3,000}{150}  \\\\\n           &= 20\n\\end{aligned}\n\\]\n每吸引1个潜在用户点进网站，需要支付20元。"
+    "objectID": "编码员信度计算.html#计算cohens-kappa-2位编码员时使用学术常用",
+    "href": "编码员信度计算.html#计算cohens-kappa-2位编码员时使用学术常用",
+    "title": "内容分析编码员信度计算",
+    "section": "3 计算Cohen’s Kappa (2位编码员时使用)(学术常用)",
+    "text": "3 计算Cohen’s Kappa (2位编码员时使用)(学术常用)\nKappa 系数排除了随机一致的概率，所以会较Holsti低，比较严谨，学术常用。\n\n3.1 使用 irr 包中的 kappa2( ) 函数，计算 Cohen’s Kappa。\n\n#install.packages(\"irr\") \nlibrary(irr)\n\n载入需要的程序包：lpSolve\n\nresult &lt;- kappa2(data)\nprint(result) #Kappa=0.672\n\n Cohen's Kappa for 2 Raters (Weights: unweighted)\n\n Subjects = 10 \n   Raters = 2 \n    Kappa = 0.672 \n\n        z = 2.88 \n  p-value = 0.00393 \n\n\n\n\n3.2 人工计算 Cohen’s Kappa。\n\n3.2.1 Kappa公式\n\\[\n\\begin{aligned}\n\\kappa = \\frac{P_o - P_e}{1 - P_e}\\\\\n\\text{其中：} & P_o = \\text{观察一致性(observed agreement)} \\\\\n& P_e = \\text{随机一致性(expected agreement)}\n\\end{aligned}\n\\]\n\n\n3.2.2 计算 \\(P_o\\) 和 \\(P_e\\)\n\n\\(P_o\\)：两位编码员达成一致的比例 = 8/10 = 0.8\n\\(P_e\\)：随机一致的概率 = (0.3 * 0.4) + (0.5 * 0.5) + (0.2 * 0.1) = 0.39\n计算 Kappa：\n\n\\[\n\\kappa = \\frac{0.8 - 0.39}{1 - 0.39} = \\frac{0.41}{0.61} \\approx 0.672\n\\]\n\n\n\n3.3 系数解读\nCohen’s Kappa 系数的核心逻辑是： 在排除掉“随机乱猜而达成一致”的可能性后，两位编码员实际达成一致的比例是多少。\nKappa (\\(k\\)): 系数&lt; 0: 几乎没有一致性。\n0.00–0.20: 极低的一致性 (Slight)。\n0.21–0.40: 一般 (Fair)。\n0.41–0.60: 中等 (Moderate)。\n0.61–0.80: 高度一致 (Substantial)。\n0.81–1.00: 几乎完美一致 (Almost Perfect)。\np-value: 如果 p &lt; 0.05， 说明这种一致性不是随机发生的，具有统计学显著意义。"
   },
   {
-    "objectID": "补充讲义1-新媒体数据分析指标.html#cpacost-per-action",
-    "href": "补充讲义1-新媒体数据分析指标.html#cpacost-per-action",
-    "title": "新媒体数据分析指标-补充",
-    "section": "2.3 CPA（Cost Per Action）",
-    "text": "2.3 CPA（Cost Per Action）\n指每次行动的成本， 计算逻辑是：总广告花费除以实际达成的行动（转换）次数。是衡量广告投放效果的重要指标，反映了广告主为每次用户完成特定行动所支付的费用。CPA越低，表示广告投放效率越高，广告主能够以更低的成本促使更多的用户完成特定行动。「行动」的定义由你決定，常見的包括：完成報名、购买產品、下载 App、填寫谘询表單等。\n\n2.3.1 计算公式：\n\\[\n\\text{CPA} = \\left( \\frac{\\text{总花费成本}}{\\text{总转化次数}} \\right)\n\\]\n\n\n2.3.2 计算示例：\n假设你举办了一場「线上讲座」，並透过广告导流报名： 总广告花费： 10,000 元，总点击数 (CPC 階段)： 500 次， 最终完成报名人数： 20 。\n那么CPA的计算如下：\n\\[\n\\begin{aligned}\n\\text{CPA} &= \\frac{10,000}{20}  \\\\\n           &= 50\n\\end{aligned}\n\\]\n每促成1个用户完成报名，需要支付50元的费用。这个CPA值可以帮助你评估广告投放的效果，并决定是否需要调整广告策略以降低CPA，提高转化率。"
+    "objectID": "编码员信度计算.html#信度检验结果描述",
+    "href": "编码员信度计算.html#信度检验结果描述",
+    "title": "内容分析编码员信度计算",
+    "section": "4 信度检验结果描述",
+    "text": "4 信度检验结果描述\n本研究采用内容分析法对 10 个样本进行编码。为确保编码的一致性，由两位独立编码员（A 与 B）根据预先制定的编码手册进行判读。初步信度检验结果显示，观察一致率（Holsti 系数）为 0.80。考虑到随机一致性的影响，进一步计算 Cohen’s Kappa 系数，所得结果为 \\(\\kappa = 0.67\\)。根据 Landis & Koch (1977) 的判定标准，显示两位编码员之间具有高度一致 (Substantial)）的一致性1。\n1 0.61–0.80: 高度一致 (Substantial)。针对编码不一致的样本，研究团队随后进行了深入讨论，修正了编码手册中关于“类别 1”与“类别 0”界定模糊的部分，并达成共识，以确保后续大规模编码的严谨性。"
   },
   {
-    "objectID": "补充讲义1-新媒体数据分析指标.html#三大指標比較表-cpm-cpc-cpa",
-    "href": "补充讲义1-新媒体数据分析指标.html#三大指標比較表-cpm-cpc-cpa",
-    "title": "新媒体数据分析指标-补充",
-    "section": "2.4 三大指標比較表 (CPM / CPC / CPA)",
-    "text": "2.4 三大指標比較表 (CPM / CPC / CPA)\n\n\n\n\n\n\n\n\n\n指标\n英文\n核心关注点\n范例\n\n\n\n\nCPM\nCost Per Mille\n品牌曝光 (被看見)\n花 1,000 元让 10,000 人看到\n\n\nCPC\nCost Per Click\n网站流量 (点進來)\n花 1,000 元換 100 个人進站。\n\n\nCPA\nCost Per Action\n最終转换 (留资料/買東西）\n花 1,000 元換 2 个人下單。\n\n\n\n\n\n\n\n\n\nImportant\n\n\n\nCPA 最重要\n\n衡量真正的投资报酬率 (ROI)： 点击再多，如果没人买单也是徒劳。CPA 直接告诉你获取一个客户的代价。\n预算控制： 如果你知道一个学员的报名费是 3,000 元，而你的 CPA 是 500 元，那你就能清楚算出利润空间。\n优化转换率 (CVR)： 如果 CPC 很低（很多人进站）但 CPA 很高（没人买），就代表你的网页内容或产品定价出了问题"
+    "objectID": "编码员信度计算.html#计算-krippendorffs-alpha-适用于多位编码员",
+    "href": "编码员信度计算.html#计算-krippendorffs-alpha-适用于多位编码员",
+    "title": "内容分析编码员信度计算",
+    "section": "5 计算 Krippendorff’s Alpha (适用于多位编码员)",
+    "text": "5 计算 Krippendorff’s Alpha (适用于多位编码员)\n\n5.1 Krippendorff’s Alpha 公式\n\\[\n\\begin{aligned}\n\\alpha &= 1 - \\frac{D_o}{D_e} \\\\\n\\text{其中：} & D_o = \\text{观察到的不一致量 (Observed Disagreement)} \\\\\n& D_e = \\text{随机预期下的不一致量 (Expected Disagreement)}\n\\end{aligned}\n\\]\n\n\n5.2 载入套件\n\n#install.packages(\"irr\")\nlibrary(irr)\n\n\n\n5.3 建立包含三位编码员的数据\n\ncoder_A &lt;- c(1, 0, 2, 1, 1, 0, 2, 1, 0, 1)\ncoder_B &lt;- c(1, 0, 1, 1, 1, 0, 2, 0, 0, 1)\ncoder_C &lt;- c(1, 0, 2, 1, 0, 0, 2, 1, 0, 1) \n\n\n\n5.4 合并并转置 (行必须是编码员，列是样本)\n\ndata_Kalpha &lt;- data.frame(coder_A, coder_B, coder_C)\nprint(data_Kalpha)\n\n   coder_A coder_B coder_C\n1        1       1       1\n2        0       0       0\n3        2       1       2\n4        1       1       1\n5        1       1       0\n6        0       0       0\n7        2       2       2\n8        1       0       1\n9        0       0       0\n10       1       1       1\n\nmatrix_Kalpha &lt;- t(as.matrix(data_Kalpha))\nprint(matrix_Kalpha)\n\n        [,1] [,2] [,3] [,4] [,5] [,6] [,7] [,8] [,9] [,10]\ncoder_A    1    0    2    1    1    0    2    1    0     1\ncoder_B    1    0    1    1    1    0    2    0    0     1\ncoder_C    1    0    2    1    0    0    2    1    0     1\n\n\n\n\n5.5 计算定类尺度的 Alpha\n\nresult_Kalpha &lt;- kripp.alpha(matrix_Kalpha, method = \"nominal\")\n\n\n\n5.6 查看结果\n\nprint(result_Kalpha) #0.683\n\n Krippendorff's alpha\n\n Subjects = 10 \n   Raters = 3 \n    alpha = 0.683 \n\n\n\n\n5.7 系数判准\n\\(\\alpha &gt; 0.800\\)：结论非常可靠（高度一致）。\n\\(0.667 &lt; \\alpha &lt; 0.800\\)： 可接受的信度，足以得出初步结论（中高度一致）。\n\\(\\alpha &lt; 0.667\\)：信度堪忧，通常需要回过头检查编码员 A/B/C 为什么在样本 3、5、8 产生了分歧。\n\n\n5.8 讨论与不一致性处理:\n本研究在初步编码测试中获得 Krippendorff’s Alpha 系数为 0.683 (\\(n=10, k=3\\))。\n尽管该系数已达到社会科学研究的可接受标准（\\(\\alpha &gt; 0.667\\)），但研究团队仍针对产生分歧的样本（样本 3、5、8）进行了深度协商。\n分歧点分析：样本 3 中，编码员 A 与 C 判定为类别 2，而 B 判定为类别 1；样本 5 与 8 则呈现出三方各异的判断。经讨论发现，分歧主要源于编码手册中关于“语义模糊性”的界定不够明确。\n处理结果：研究团队随后修订了编码手册（Codebook），增加了具体案例展示以统一判读标准。经协商一致后，最终将争议样本的属性进行了定论(样本3定论为2; 样本5定论为1;样本8定论为1;)。此过程确保了后续大规模编码任务的严谨性与严密性。"
   },
   {
-    "objectID": "补充讲义1-新媒体数据分析指标.html#日活跃用户数dau-daily-active-user",
-    "href": "补充讲义1-新媒体数据分析指标.html#日活跃用户数dau-daily-active-user",
-    "title": "新媒体数据分析指标-补充",
-    "section": "3.1 日活跃用户数（DAU, Daily Active User)",
-    "text": "3.1 日活跃用户数（DAU, Daily Active User)\n表示在一天24小时内至少访问过一次网站或应用程序的不重複用戶（Unique Users）(独立用户)數量。不管同一個用户在一天內進出網站多少次，DAU 都只會計算為 1。与此对应的，还有周活跃用户数(WAU, Weekely Active User)与月活跃用户数(MAU, Monthly Active User)。"
-  },
-  {
-    "objectID": "补充讲义1-新媒体数据分析指标.html#用户黏着度stick-rate",
-    "href": "补充讲义1-新媒体数据分析指标.html#用户黏着度stick-rate",
-    "title": "新媒体数据分析指标-补充",
-    "section": "3.2 用户黏着度（Stick Rate）",
-    "text": "3.2 用户黏着度（Stick Rate）\n指用户在一定时间内的活跃程度，通常通过DAU（每日活跃用户数）与MAU（月活跃用户数）的比率来衡量。这个指标反映了用户对网站或应用程序的忠诚度和使用频率。用户黏着度越高，表示用户更频繁地使用该平台，说明平台具有较强的吸引力和用户粘性。\n\\[\n\\text{用戶黏著度(Stick Rate)} = \\left( \\frac{\\text{DAU}}{\\text{MAU}} \\right) \\times 100\\%\n\\]\n\n3.2.1 舉例：\n如果某老师开设一门线上课程，有 100 名學生选修 (MAU = 100)。每天固定會上線看進度的學生有 20 名 (DAU = 20)，则黏著度： \\(20 / 100 = 20\\%\\)。"
-  },
-  {
-    "objectID": "补充讲义1-新媒体数据分析指标.html#pvpage-view",
-    "href": "补充讲义1-新媒体数据分析指标.html#pvpage-view",
-    "title": "新媒体数据分析指标-补充",
-    "section": "3.3 PV(Page View)",
-    "text": "3.3 PV(Page View)\n指页面浏览量，网页被「加载」或「刷新」的总次数。只要页面被读取一次，PV 就会加 1。衡量网站或应用程序的访问量。每当用户访问一个页面时，PV就会增加一次。PV是评估网站流量和用户兴趣的重要指标，通常用于分析网站的受欢迎程度和内容的吸引力。\n计算逻辑： 不管是谁看的，只要有开启网页的动作就计算。 同一个使用者反覆刷新页面，PV 会不断累积。"
-  },
-  {
-    "objectID": "补充讲义1-新媒体数据分析指标.html#uvunique-visitor",
-    "href": "补充讲义1-新媒体数据分析指标.html#uvunique-visitor",
-    "title": "新媒体数据分析指标-补充",
-    "section": "3.4 UV(Unique Visitor)",
-    "text": "3.4 UV(Unique Visitor)\n指独立访客数(唯一页面浏览量)，在同一个工作阶段内，特定网页被浏览的「次数」。它排除了重复浏览，以「人（精确来说是浏览器/Cookie）」为单位。衡量在一定时间内访问网站或应用程序的独立用户数量。每个独立用户只会被计算一次，无论他们访问了多少次。UV是评估网站受众规模和用户覆盖范围的重要指标，通常用于分析网站的用户基础和市场渗透率。\n计算逻辑： 同一个使用者在一次访问中，不管看几次同个页面，只算 1 次。能更准确地反映出「有多少人」看过这个内容。"
-  },
-  {
-    "objectID": "补充讲义1-新媒体数据分析指标.html#比较pvuv",
-    "href": "补充讲义1-新媒体数据分析指标.html#比较pvuv",
-    "title": "新媒体数据分析指标-补充",
-    "section": "3.5 比较(PV;UV)",
-    "text": "3.5 比较(PV;UV)\n假设有一位学生进入某老师的课程网站，发生了以下行为：\n1.进入 首页 (Home)\n2.点击进入 课程大纲 (Syllabus)\n3.按「重新整理」刷新 课程大纲\n4.回到 首页\n5.再次点进 课程大纲\n統計結果如下：\n\n\n\n页面\nPV\nUV\n\n\n\n\n首页\n2\n1\n\n\n课程大纲\n3\n1\n\n\n总计\n5\n2\n\n\n\n这两个数字的「差距」能告诉你很多关于网页内容的信息：\n\nPV 远高于 UV：\n\n—可能是好现象： 代表内容非常吸引人，使用者反覆回来查看（例如：参考资料、工具页面）。\n—也可能是坏现象： 可能代表网页加载有问题、信息太复杂，导致使用者必须不断重新整理或来回跳转才能看清楚。\n\nPV 与 UV接近：\n\n—代表使用者通常「看完就走」，没有回头再看的动力。"
-  },
-  {
-    "objectID": "1 2.html",
-    "href": "1 2.html",
-    "title": "Untitled",
+    "objectID": "Quarto.html",
+    "href": "Quarto.html",
+    "title": "Quarto",
     "section": "",
-    "text": "这是新媒体数据分析的第一堂课"
+    "text": "Quarto讲义：Tutorial: Hello Quarto"
   },
   {
-    "objectID": "1.html",
-    "href": "1.html",
-    "title": "Untitled",
+    "objectID": "Quarto.html#quarto-讲义",
+    "href": "Quarto.html#quarto-讲义",
+    "title": "Quarto",
     "section": "",
-    "text": "这是新媒体数据分析的第一堂课"
+    "text": "Quarto讲义：Tutorial: Hello Quarto"
+  },
+  {
+    "objectID": "AI-notes.html",
+    "href": "AI-notes.html",
+    "title": "AI notes",
+    "section": "",
+    "text": "錄音檔轉文字 (2025/09/11/Esor Huang)\n\nhttps://www.thenewslens.com/article/258456\n\n旅遊行程網頁化(2025-11-24/瘋先生)\n\nhttps://mrmad.com.tw/gemini-travel-itinerary-to-webpage\n\n旅遊行程插畫風格(2025-11-25/瘋先生)\n\nhttps://mrmad.com.tw/gemini-ai-nano-banana-pro-travel-map-guide"
+  },
+  {
+    "objectID": "AI-notes.html#gemini",
+    "href": "AI-notes.html#gemini",
+    "title": "AI notes",
+    "section": "",
+    "text": "錄音檔轉文字 (2025/09/11/Esor Huang)\n\nhttps://www.thenewslens.com/article/258456\n\n旅遊行程網頁化(2025-11-24/瘋先生)\n\nhttps://mrmad.com.tw/gemini-travel-itinerary-to-webpage\n\n旅遊行程插畫風格(2025-11-25/瘋先生)\n\nhttps://mrmad.com.tw/gemini-ai-nano-banana-pro-travel-map-guide"
+  },
+  {
+    "objectID": "AI-notes.html#chatgpt",
+    "href": "AI-notes.html#chatgpt",
+    "title": "AI notes",
+    "section": "Chatgpt",
+    "text": "Chatgpt"
+  },
+  {
+    "objectID": "AI-notes.html#notebookllm",
+    "href": "AI-notes.html#notebookllm",
+    "title": "AI notes",
+    "section": "NotebookLLM",
+    "text": "NotebookLLM"
+  },
+  {
+    "objectID": "SPSS.html",
+    "href": "SPSS.html",
+    "title": "SPSS",
+    "section": "",
+    "text": "SPSS讲义：数据编码簿的建立与基本频数分布\nSPSS讲义：重新编码与产生新变量\nSPSS讲义：样本代表性检验与加权\nSPSS讲义：单变量描述统计\nSPSS讲义：交叉分析与卡方检验\nSPSS讲义：平均数差异分析\nSPSS讲义：双因子方差分析\nSPSS讲义：相关与单变量线性回归分析\nSPSS讲义：多变量线性回归分析"
+  },
+  {
+    "objectID": "SPSS.html#spss-讲义",
+    "href": "SPSS.html#spss-讲义",
+    "title": "SPSS",
+    "section": "",
+    "text": "SPSS讲义：数据编码簿的建立与基本频数分布\nSPSS讲义：重新编码与产生新变量\nSPSS讲义：样本代表性检验与加权\nSPSS讲义：单变量描述统计\nSPSS讲义：交叉分析与卡方检验\nSPSS讲义：平均数差异分析\nSPSS讲义：双因子方差分析\nSPSS讲义：相关与单变量线性回归分析\nSPSS讲义：多变量线性回归分析"
   }
 ]
